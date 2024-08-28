@@ -1,0 +1,58 @@
+header {
+
+  text-align: center;
+
+}
+
+body {
+
+  background-image: radial-gradient(circle, orange, blue, darkslateblue);
+  background-repeat:repeat-y;  
+}
+
+li {
+
+  list-style: none;
+  text-decoration: none;
+
+}
+
+a {
+
+  text-decoration: none;
+  color:crimson;
+
+}
+
+h1 {
+
+  text-align: center;
+}
+
+
+.board {
+
+  background-color: aliceblue;
+  border: 3px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  height: 25vh;
+  align-content: center;
+  gap: 15px;
+  padding: 2px;
+  margin-top: 25vh;
+}
+
+.question {
+  
+  text-align: center;
+  border: 2px solid black;
+  margin: 5px;
+}
+
+button {
+
+  background-color: blue;
+  color: rgb(255, 255, 255);
+  width: 80px;
+}
